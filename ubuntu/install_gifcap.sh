@@ -20,7 +20,7 @@ cat > ./gifcap <<"EOF"
 DELAY=5
 TIME=5
 OPTIND=1
-OUTPUT="$HOME/Desktop/capture.gif"
+OUTPUT="$HOME/Desktop/capture_`date +%s`.gif"
 
 while [[ $# > 1 ]]
 do
